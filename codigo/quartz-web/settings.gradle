@@ -1,0 +1,4 @@
+rootProject.name = 'quartz-web'
+
+include ':quartz-common'
+project(':quartz-common').projectDir = new File(settingsDir,'../quartz-common')

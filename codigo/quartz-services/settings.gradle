@@ -1,0 +1,8 @@
+rootProject.name = 'quartz-services'
+
+include ':quartz-common'
+project(':quartz-common').projectDir = new File(settingsDir,'../quartz-common')
+
+include ':quartz-persistence'
+project(':quartz-persistence').projectDir = new File(settingsDir,'../quartz-persistence')
+
