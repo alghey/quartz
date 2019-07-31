@@ -26,5 +26,8 @@ hs_err_pid*
 bin/
 gradle/
 .gradle/
-*/gradlew
+gradlew
+.idea/
+out/
+RemoteSystemsTempFiles/
 
