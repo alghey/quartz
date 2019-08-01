@@ -3,7 +3,7 @@ package mx.com.quartz.common.anime.vo;
 public class AnimeVo {
     private Integer idAnime;
     private AutorVo autor;
-    private ClasificacionVo clasificacion;
+    private ClasificacionVo clasificacionVo;
     private GeneroVo genero;
     private String nombre;
     private String sinopsis;
@@ -25,12 +25,12 @@ public class AnimeVo {
         this.autor = autor;
     }
 
-    public ClasificacionVo getClasificacion() {
-        return clasificacion;
+    public ClasificacionVo getClasificacionVo() {
+        return clasificacionVo;
     }
 
-    public void setClasificacion(ClasificacionVo clasificacion) {
-        this.clasificacion = clasificacion;
+    public void setClasificacionVo(ClasificacionVo clasificacion) {
+        this.clasificacionVo = clasificacion;
     }
 
     public GeneroVo getGenero() {
